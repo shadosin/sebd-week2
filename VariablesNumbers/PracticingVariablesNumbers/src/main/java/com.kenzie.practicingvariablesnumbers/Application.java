@@ -7,7 +7,7 @@ public class Application {
         // - Print the number 16 to the console.
         //
         // Write your code here
-
+        System.out.println(8*2);
     }
 
     public static void exerciseTwo() {
@@ -15,7 +15,7 @@ public class Application {
         // - Print the result of the expression six divided by three to the console.
         //
         // Write your code here
-
+        System.out.println(6/3);
     }
 
     public static void exerciseThree() {
@@ -24,16 +24,16 @@ public class Application {
         //
         // Write your code here
 
-        System.out.println(1 + 3 * 4);
+        System.out.println((1 + 3) * 4);
     }
 
     public static void exerciseFour() {
         System.out.println("Exercise Four");
         // - Un-comment the following variable, and then on the next line use System.out.println() to print it to the console.
 
-        // int myNumber = 6;
+         int myNumber = 6;
         // Write your code here
-
+        System.out.println(myNumber);
     }
 
     public static void exerciseFive() {
@@ -42,7 +42,8 @@ public class Application {
         // - then print the variable to the console on the next line.
         //
         // Write your code here
-
+        double otherNumber = 4.25;
+        System.out.println(otherNumber);
     }
 
     public static void exerciseSix() {
@@ -52,8 +53,9 @@ public class Application {
         // Hint: You can multiply with the * operator: For example, 3 * 5 would be 15
         //
         // Write your code here
-        //int myNumber = 6;
-        //double otherNumber = 4.25;
+        int myNumber = 6;
+        double otherNumber = 4.25;
+        System.out.println(myNumber*otherNumber);
 
 
     }
@@ -66,7 +68,10 @@ public class Application {
         // Then Print the difference to the console.  (This should print a negative number!)
         //
         // Write your code here
-
+        int a = 5;
+        int b = 8;
+        int third = a-b;
+        System.out.println(third);
 
     }
 
@@ -79,6 +84,8 @@ public class Application {
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
         //
         // Write your code here
+        int petDogs = 3;
+        System.out.println(petDogs);
     }
 
     public static void exerciseEight_NumberOfPairsOfSunglasses() {
@@ -90,6 +97,8 @@ public class Application {
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
         //
         // Write your code here
+        int pairsOfSunglasses = 4;
+        System.out.println(pairsOfSunglasses);
     }
 
     public static void exerciseEight_RatingOfLastMeal() {
@@ -101,6 +110,8 @@ public class Application {
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
         //
         // Write your code here
+        double lastMealRating = 8.7;
+        System.out.println(lastMealRating);
     }
 
     public static void exerciseEight_HowManyDaysSinceLastGroceryTrip() {
@@ -112,6 +123,8 @@ public class Application {
         // Hint: One popular way to name a variable representing a number of something is to name it like "numHats" or "numEggsInFridge"
         //
         // Write your code here
+        int daysSinceLastGroceryTrip = 4;
+        System.out.println(daysSinceLastGroceryTrip);
     }
 
 

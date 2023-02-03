@@ -6,7 +6,7 @@ public class ReadingPracticeTest {
     @Test
     public void fixConditional() {
         int number = 3;
-
+        int number++;
         // Practice #1:
         // Fix the conditional operator so the print statement prints "false"
         System.out.println("Is number equal to 4?");
@@ -52,18 +52,18 @@ public class ReadingPracticeTest {
         // 2. Create an if statement to check the value of the variable dayOfWeek. If the variable is equal to "Monday", print out "I don't like Mondays"
         // 3. Create an else if statement. If the dayOfWeek is "Tuesday" or dayOfWeek is "Wednesday", print out "Tuesday's gray and Wednesday too"
         // 4. Create an else statement to catch all other days
-        // and log "It's a new day"
-
-        // 5. Run the code by manually changing the value of dayOfWeek to each of the options and then clicking "Run"
-
-        // Write your code here
+//         and log "It's a new day"
+//
+//         5. Run the code by manually changing the value of dayOfWeek to each of the options and then clicking "Run"
+//
+//         Write your code here
         System.out.println("I don't like Mondays");
     }
 
     @Test
     public void changeVariable() {
         // Alter the line on 69 to update your pets name
-        String petName = "";
+        String petName = "Dionysus";
         System.out.println("My pet's name is " + petName);
     }
 
@@ -74,7 +74,7 @@ public class ReadingPracticeTest {
         // Uncomment one correct line to update the variable to "ranch dressing"
         // favoriteSaladDressing = ranch dressing;
         // favoriteSaladDressing = 'ranch dressing';
-        // favoriteSaladDressing = "ranch dressing";
+        favoriteSaladDressing = "ranch dressing";
         // favoriteSaladDressing = ranchDressing
 
         System.out.println(favoriteSaladDressing);
