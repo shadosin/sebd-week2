@@ -9,8 +9,8 @@ public class MadLibs {
         String food = args[1];
         String animal = args[2];
 
-
+        String sentence = "I was once a " + animal + " but through my journey to " + place + " and my consumption of " + food + " I became human again!";
         // TODO - Write a statement to tell a MadLibs story with the variables above
-        System.out.println();
+        System.out.println(sentence);
     }
 }

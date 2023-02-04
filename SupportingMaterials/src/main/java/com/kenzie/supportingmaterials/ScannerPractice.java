@@ -15,5 +15,11 @@ public class ScannerPractice {
 
         // Print out what the user typed in
         System.out.println("Hello " + name + "! It's nice to meet you.");
+        // Ask the user for their age
+        System.out.println("How old are you?");
+        //Read what the user types
+        int age = scanner.nextInt();
+
+        System.out.println("Oh! " + age + (" is a wonderful age!"));
     }
 }

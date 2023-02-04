@@ -6,11 +6,11 @@ public class ReadingPracticeTest {
     @Test
     public void fixConditional() {
         int number = 3;
-        int number++;
+        number --;
         // Practice #1:
         // Fix the conditional operator so the print statement prints "false"
         System.out.println("Is number equal to 4?");
-        System.out.println(number = 4);
+        System.out.println(number == 4);
     }
 
     @Test
@@ -23,7 +23,7 @@ public class ReadingPracticeTest {
         // Practice #1:
         // Can you modify the code so that the `if` condition will return true if `a` is *NOT* greater than `b`?
         System.out.println("Practice 1");
-        if (a < b) {
+        if (!(a < b)) {
             System.out.println("a is less than b");
             System.out.println(a+b);
         }
@@ -37,7 +37,7 @@ public class ReadingPracticeTest {
         System.out.println("Practice 2");
         int numPeople = 3;
 
-        if (numPeople == 3) {
+        if (numPeople !=2) {
             System.out.println("Not company");
         }
         else {
@@ -57,7 +57,16 @@ public class ReadingPracticeTest {
 //         5. Run the code by manually changing the value of dayOfWeek to each of the options and then clicking "Run"
 //
 //         Write your code here
-        System.out.println("I don't like Mondays");
+        String dayOfWeek = "Monday";
+        if (dayOfWeek.equals("Monday")) {
+            System.out.println("I don't like Mondays");
+        }
+        else if(dayOfWeek.equals("Tuesday") || dayOfWeek.equals("Wednesday") ){
+            System.out.println("Tuesday's gray and Wednesday too");
+        }
+        else {
+            System.out.println("It's a new day");
+        }
     }
 
     @Test

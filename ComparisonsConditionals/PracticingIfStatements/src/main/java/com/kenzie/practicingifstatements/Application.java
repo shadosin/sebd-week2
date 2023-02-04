@@ -8,7 +8,11 @@ public class Application {
         // - If it is, then log "It is bigger than 10!" using System.out.println().
         // - Your code should output the message to the console.
         // Write your code here
+if(number > 10){
+    System.out.println("It is bigger than 10!");
 
+
+}
     }
 
     public static void exerciseTwo(String color) {
@@ -20,6 +24,20 @@ public class Application {
         // (NOTE: DO NOT use a switch statement. Use a series of if/else if/ else statements)
         // Write your code here
 
+        if (color.equals("blue")) {
+            System.out.println("The sky is blue.");
+
+        } else if (color.equals("red")) {
+            System.out.println("The flower is red.");
+
+        } else if (color.equals("green")) {
+            System.out.println("The leaf is green.");
+
+        } else {
+            System.out.println("It is a different color.");
+        }
+
+
     }
 
     public static void exerciseThree(int value) {
@@ -29,6 +47,11 @@ public class Application {
         // - If value is even, then print "The number is even."
         //   otherwise print "The number is odd."
         //  Write your code here
+    if(value % 2 == 0) {
+        System.out.println("The number is even.");
+    }else{
+            System.out.println("The number is odd.");
+        }
 
     }
 
@@ -49,6 +72,19 @@ public class Application {
         //     (like: if (a && b) )
         //
         // Your code here:
+        if (number == 16) {
+            System.out.println("16!");
+        }
+        if (number <= 10) {
+            System.out.println("10 or less!");
+        }
+        if (number > 10 && number < 20) {
+            System.out.println("Between 10 and 20!");
+        }
+        if (number >= 20) {
+            System.out.println("20 or greater!");
+        }
+
 
     }
 
